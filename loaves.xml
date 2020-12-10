@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="loaves.xsl"?>
+
+<!DOCTYPE loaves [
+<!ELEMENT loaves (loaf+)>
+<!ATTLIST loaf type CDATA #REQUIRED> 
+<!ELEMENT loaf (price, gif, description)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT gif (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+]>
+
+<loaves>
+ <loaf type="Sourdough White">
+  <price>$7.00</price>
+  <gif>https://media.giphy.com/media/wxGyHq9mlnjeU/giphy.gif</gif>
+  <description>Our standard sourdough</description>
+ </loaf>
+
+ <loaf type="Sourdough White">
+  <price>$7.00</price>
+  <gif>https://media.giphy.com/media/wxGyHq9mlnjeU/giphy.gif</gif>
+  <description>Our standard sourdough</description>
+ </loaf>
+ 
+  <loaf type="Sourdough Rye">
+  <price>$8.00</price>
+  <gif>https://media.giphy.com/media/miMFdywqrczXq/giphy.gif</gif>
+  <description>Sourdough created with 50% rye flour</description>
+ </loaf>
+ 
+  <loaf type="Sourdough Spelt">
+  <price>$9.00</price>
+  <gif>https://media.giphy.com/media/vF9gaypvoJXvq/giphy.gif</gif>
+  <description>Sourdough created with 100% spelt flour.</description>
+ </loaf>
+ 
+  <loaf type="Sourdough Seeded">
+  <price>$9.50</price>
+  <gif>images/bread4.gif</gif>
+  <description>Sourdough including a mixture of yummy seeds</description>
+ </loaf>
+ 
+</loaves>
